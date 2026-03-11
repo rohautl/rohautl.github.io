@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:rohautl.github.io",
+  "assertionMethod": [
+    {
+      "id": "did:web:rohautl.github.io#2cbf6fc1e16188cbe21ced585f77b0284f10ff9caf78bcd5f71c46f28b1c818c",
+      "type": "JsonWebKey2020",
+      "controller": "did:web:rohautl.github.io",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "x": "2qH-Qwr_ZnMAV9hK0rfXPbIBjRae0qoCKf2IuxasOf8=",
+        "y": "jIcA-Fbktc64pHr3k88z6RIIcPkSLFVOBpHyJtQYas4=",
+        "kid": "2cbf6fc1e16188cbe21ced585f77b0284f10ff9caf78bcd5f71c46f28b1c818c",
+        "alg": "ES256"
+      }
+    }
+  ]
+}
